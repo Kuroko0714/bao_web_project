@@ -5,6 +5,7 @@
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: "DK-FaiSB";
 }
 
 body{
@@ -37,7 +38,6 @@ div.header a{
     position: relative;
     top: 20px;
     color: #ae686b;
-    font-family: "HMP";
     display: inline-block;
     line-height: 56px;
     height: 56px;

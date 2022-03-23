@@ -70,19 +70,20 @@ div.member{
     padding: 10px;
     width: calc((90% - 120px) / 3);
     background: #ffeeea;
-    border: 1px solid #ffeeea;
+    /* border: 1px solid #ffeeea; */
     /* border: 1px solid #ffeeea; */
     transition: 
         background 0.3s ease-in-out 0.3s,
-        border 0.3s ease-in-out 0.3s;
+        box-shadow 0.3s ease-in-out 0.3s;
 }
 
 div.member:hover{
     background: #fff;
-    border: 5px solid #fff;
+    box-shadow: 7px 7px 10px #0004, -7px -7px 10px #0004, 7px -7px 10px #0004, -7px 7px 10px #0004;
+    /* border: 5px solid #fff; */
     transition: 
-        background 0.3s ease-in-out 0.3s, 
-        border 0.3s ease-in-out 0.3s;
+        background 0.3s ease-in-out 0.3s,
+        box-shadow 0.3s ease-in-out 0.3s;
 }
 
 div.member img {

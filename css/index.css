@@ -29,7 +29,7 @@ body{
     /* width: 400px; */
     color: #fff;
     text-decoration: none;
-    width: 10%;
+    width: auto;
 }
 
 .header a:hover{
@@ -110,4 +110,9 @@ h1{
     color: #fff;
     background: #f55;
     text-align: center;
+}
+
+.content div.box:hover{
+    background-color: #fff;
+    color: rgb(165, 55, 55);
 }

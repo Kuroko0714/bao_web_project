@@ -38,7 +38,7 @@ body {
     /* width: 400px; */
     color: #fff;
     text-decoration: none;
-    width: 15%;
+    width: auto;
 }
 
 .header a:hover {
@@ -78,7 +78,7 @@ div.member{
 }
 
 div.member:hover{
-    background: #fff;
+    background: #f5f0ef;
     box-shadow: 7px 7px 10px #0004, -7px -7px 10px #0004, 7px -7px 10px #0004, -7px 7px 10px #0004;
     /* border: 5px solid #fff; */
     transition: 

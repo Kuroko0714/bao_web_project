@@ -12,6 +12,8 @@ body {
 }
 
 .header {
+    box-shadow: 0 10px 10px #0007;
+    z-index: 1;
     position: fixed;
     width: 100%;
     height: 96px;
@@ -47,15 +49,12 @@ div.content {
     position: relative;
     left: 10%;
     top: calc(15% + 72px);
+    margin-bottom: calc(15% + 72px);
     border-radius: 5px;
     box-shadow: 10px 10px 30px #0006,
         -10px -10px 30px #0006;
     background-color: #0000;
 }
-
-/* div.content div.body {
-    padding: 30px; 
-} */
 
 div#pin{
     border-radius: 3px;
@@ -68,6 +67,19 @@ div#pin{
     height: 1.5em;
     transform: rotate(315deg);
     left: -20px;
+}
+
+div.pin_competition{
+    border-radius: 3px;
+    position: absolute;
+    background: #ffd699;
+    font-family: "HMP";
+    font-size: 15px;
+    width: 120px;
+    text-align: center;
+    height: 1.5em;
+    transform: rotate(315deg);
+    left: -40px;
 }
 
 div.body div.activity {
@@ -88,6 +100,30 @@ div.activity#activity_pin{
 
 div.activity#activity1{
     background-color: #f7ebdbbb;
+}
+
+div.activity#activity2{
+    background-color: #fff2a0aa;
+}
+
+div.activity#activity3{
+    background-color: #e3e3e3bb;
+}
+
+div.activity#activity4{
+    background-color: #d8b09480;
+}
+
+div.activity#activity5{
+    background: #e6d58c80;
+}
+
+div.activity#activity6{
+    background-color: #eee8;
+}
+
+div.activity#activity7{
+    background-color: #cba38080;
 }
 
 div.activity img {
@@ -138,3 +174,22 @@ div.activity a{
 div.activity a:hover{
     background: #fcc8;
 }
+
+div.footer{
+    text-align: center;
+    box-shadow: 0px -20px 20px #0006;
+    height: 100px;
+    line-height: 100px;
+    background: #0004;
+    color: #fff;
+    font-family: "Comic Sans MS";
+}
+
+div.footer p{
+    font-size: 24px;
+}
+
+div.footer span{
+    font-size: 36px;
+}
+
